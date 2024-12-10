@@ -1,12 +1,14 @@
+// app/screens/ProfileScreen.tsx
+import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function Tab() {
+const ProfileScreen = () => {
   return (
     <View style={styles.container}>
-      <Text>Tab [Home|Settings]</Text>
+      <Text>This is the Profile Screen!</Text>
     </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {
@@ -15,3 +17,5 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
 });
+
+export default ProfileScreen;
