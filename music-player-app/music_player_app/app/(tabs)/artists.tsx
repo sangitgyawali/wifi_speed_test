@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from "react-native";
 const ArtistScreen = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>This is the Details Tab!</Text>
+      <Text style={styles.text}>This is the Artists Tab!</Text>
     </View>
   );
 };
